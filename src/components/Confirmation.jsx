@@ -44,6 +44,11 @@ const Confirmation = () => {
     } else {
       setLoading(false);
       alert("Lo siento solo puedes confirmar si eres mayor de edad.");
+      setForm({
+        name: "",
+        age: "",
+        email: "",
+      });
     }
 
   };

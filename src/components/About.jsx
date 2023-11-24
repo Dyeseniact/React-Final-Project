@@ -21,7 +21,7 @@ const InformationCard = ({ index, title, description,  icon }) => {
               speed: 450
             }
           }
-          className='bg-white rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+          className='bg-white rounded-[2px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
         >
           <img src={icon} alt={title} className='w-16 h-16 object-contain' />
           <h3 className='text-tertiary text-[16px] font-bold text-center'>{title}</h3>
